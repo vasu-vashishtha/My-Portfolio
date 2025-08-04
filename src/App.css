@@ -252,6 +252,15 @@
   color: var(--bgOrange);
 }
 
+#project0{
+  background-image: url(./assets/projects/event-management.jpg);
+}
+
+#project-1 {
+  margin-left: 30px;
+  background-image: url(./assets/projects/study_notion.jpg);
+}
+
 #project1 {
   background-image: url(./assets/projects/Shop-Cart.png);
 }

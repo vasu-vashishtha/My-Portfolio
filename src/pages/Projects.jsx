@@ -49,8 +49,106 @@ const Projects = () => {
 
             <div className="project-section" id="projects">
               <div className='project-container'>
-                <div className="project-card" id="project1">
+                <div className="project-card" id="project-1">
                   <div className="project-number project-number-right ">01</div>
+                  <div className="project-content project-content-left">
+
+                    <div className="project-skills-container">
+                      <img className="project-skill" src={html} alt="" />
+                      <img className="project-skill" src={css} alt="" />
+                      <img className="project-skill" src={js} alt="" />
+                      <img className="project-skill" src={tailwind} alt="" />
+                      <img className="project-skill" src={nodejs} alt="" />
+                      <img className="project-skill" src={react} alt="" />
+                      <img className="project-skill" src={redux} alt="" />
+                      <img className="project-skill" src={vercel} alt="" />
+                    </div>
+
+                    <h2 className="project-heading">Study Notion </h2>
+
+                    <p className="project-subHeading">StudyNotion is a full-fledged e-learning platform built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). 
+                      It is designed to facilitate seamless online education by connecting instructors and learners in a structured, user-friendly environment.
+                      
+                    </p>
+
+                        <div className="flex items-center gap-4 mt-4">
+                          <Button title="Read More" />
+
+                          <a
+                            href="https://github.com/vasu-vashishtha/StudyNotion-plateform"
+                            target="_blank"
+                            rel="noreferrer"
+                            title="GitHub Link"
+                            className="text-white hover:text-blue-400 transition"
+                          >
+                            <FaGithub size={22} />
+                          </a>
+
+                          <a
+                            href="https://study-notion-plateform.vercel.app/"
+                            target="_blank"
+                            rel="noreferrer"
+                            title="Live Site"
+                            className="text-white hover:text-blue-400 transition"
+                          >
+                            <FaLink size={20} />
+                          </a>
+                        </div>
+
+                  </div>
+                </div>
+
+                <div className="project-card" id="project0">
+                  <div className="project-number project-number-left ">02</div>
+                  <div className="project-content project-content-right">
+
+                    <div className="project-skills-container">
+                      <img className="project-skill" src={html} alt="" />
+                      <img className="project-skill" src={css} alt="" />
+                      <img className="project-skill" src={js} alt="" />
+                      <img className="project-skill" src={tailwind} alt="" />
+                      <img className="project-skill" src={nodejs} alt="" />
+                      <img className="project-skill" src={react} alt="" />
+                      <img className="project-skill" src={redux} alt="" />
+                      <img className="project-skill" src={vercel} alt="" />
+                    </div>
+
+                    <h2 className="project-heading">Event Management System </h2>
+
+                    <p className="project-subHeading">This is the Event Management system where admin can create, update, delete an event for the user and user can access the upcoming events and register themselves. 
+                      Admin can view the registered users, manage events, add the events from their dashboard.
+                      
+                    </p>
+
+                        <div className="flex items-center gap-4 mt-4">
+                          <Button title="Read More" />
+
+                          <a
+                            href="https://github.com/vasu-vashishtha/event-manage-system"
+                            target="_blank"
+                            rel="noreferrer"
+                            title="GitHub Link"
+                            className="text-white hover:text-blue-400 transition"
+                          >
+                            <FaGithub size={22} />
+                          </a>
+
+                          <a
+                            href="https://event-manage-system.vercel.app/"
+                            target="_blank"
+                            rel="noreferrer"
+                            title="Live Site"
+                            className="text-white hover:text-blue-400 transition"
+                          >
+                            <FaLink size={20} />
+                          </a>
+                        </div>
+
+                  </div>
+                </div>                
+
+                <div className="project-card" id="project1">
+                  <div className="project-number project-number-right ">03</div>
                   <div className="project-content project-content-left">
 
                     <div className="project-skills-container">
@@ -99,7 +197,7 @@ const Projects = () => {
                 </div>
 
                 <div className="project-card" id="project2">
-                  <div className="project-number project-number-left">02</div>
+                  <div className="project-number project-number-left">04</div>
                   <div className="project-content project-content-right">
                     <div className="project-skills-container">
                       <img className="project-skill" src={html} alt="" />
@@ -142,7 +240,7 @@ const Projects = () => {
                 </div>
 
                 <div className="project-card" id="project3">
-                  <div className="project-number project-number-right">03</div>
+                  <div className="project-number project-number-right">05</div>
                   <div className="project-content project-content-left">
                     <div className="project-skills-container">
                       <img className="project-skill" src={html} alt="" />
@@ -183,7 +281,7 @@ const Projects = () => {
                 </div>
 
                 <div class="project-card" id="project4">
-                    <div class="project-number project-number-left">04</div>
+                    <div class="project-number project-number-left">06</div>
                     <div class="project-content project-content-right">
                       <div class="project-skills-container">
                         <img class="project-skill" src={html}/>
@@ -221,7 +319,7 @@ const Projects = () => {
                 </div>
 
                 <div class="project-card" id="project5">
-                  <div class="project-number project-number-right">05</div>
+                  <div class="project-number project-number-right">07</div>
                   <div class="project-content project-content-left">
                     <div class="project-skills-container">
                       <img class="project-skill" src={html}/>

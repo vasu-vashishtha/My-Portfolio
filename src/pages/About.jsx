@@ -5,6 +5,7 @@ import SkillRing from "../components/shared/SkillRing";
 import Button from "../components/shared/Button";
 
 
+
 const containerVariants = {
   hidden: { opacity: 0, y: 40 },
   visible: {
@@ -74,8 +75,8 @@ const About = () => {
 
           <motion.div variants={childVariants}>
             <a
-              href="/Vasu_Resume.pdf"
-              download
+              href=""
+              targeyt="_blank"
             >
               <Button title="Download Resume" />
             </a>
