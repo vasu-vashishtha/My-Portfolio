@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import avatar from "../assets/vasu-avatar.jpg";
 import SkillRing from "../components/shared/SkillRing";
 import Button from "../components/shared/Button";
+import CV from "../assets/vasu_cv.pdf";
 
 
 
@@ -75,8 +76,8 @@ const About = () => {
 
           <motion.div variants={childVariants}>
             <a
-              href=""
-              targeyt="_blank"
+              href={CV}
+              target="_blank"
             >
               <Button title="Download Resume" />
             </a>
