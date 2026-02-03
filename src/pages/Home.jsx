@@ -2,8 +2,9 @@ import { Typewriter } from 'react-simple-typewriter';
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import avatar from "../assets/vasu-avatar.jpg";
 import Button from '../components/shared/Button';
+
+import avtar from "../assets/profile-pic.jpeg"
 
 const containerVariants = {
   hidden: { opacity: 0, y: 30 },
@@ -54,7 +55,7 @@ const Home = () => {
           </motion.div>
 
           <motion.p className="mt-6 text-lg md:text-xl text-blue-50 max-w-xl" variants={childVariants}>
-            A passionate MERN Stack Developer crafting seamless web experiences with modern design, clean code, and great user interaction.
+            A passionate Full Stack Developer crafting seamless web experiences with modern design, clean code, and great user interaction.
           </motion.p>
 
           <motion.div className="mt-6 flex justify-center md:justify-start gap-6" variants={childVariants}>
@@ -90,9 +91,9 @@ const Home = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
         >
           <img
-            src={avatar}
+            src={avtar}
             alt="Vasu Avatar"
-            className="md:w-84 md:h-84 object-cover rounded-full shadow-lg shadow-blue-400"
+            className="md:w-84 md:h-84 object-fill rounded-full shadow-lg shadow-blue-400"
           />
         </motion.div>
       </motion.div>

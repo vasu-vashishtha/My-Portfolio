@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import avatar from "../assets/vasu-avatar.jpg";
+import avtar from "../assets/profile-pic.jpeg";
 import SkillRing from "../components/shared/SkillRing";
 import Button from "../components/shared/Button";
-import CV from "../assets/vasu_cv.pdf";
+import CV from "../assets/VasuResume.pdf";
 
 
 
@@ -45,21 +45,21 @@ const About = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left: Avatar + Text */}
         <motion.div className="space-y-6" variants={childVariants}>
-          <div className="flex items-center gap-6">
+          <div className="md:flex items-center gap-6">
             {/* Avatar */}
             <motion.div
               className="w-40 h-40 rounded-full overflow-hidden shadow-2xl shadow-blue-400 shrink-0"
               variants={childVariants}
             >
               <img
-                src={avatar}
+                src={avtar}
                 alt="Vasu Vashishtha"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill"
               />
             </motion.div>
 
             {/* Name & Role */}
-            <div className="text-lg md:text-xl text-blue-300">
+            <div className="text-lg md:text-xl text-blue-300 mt-4">
               <p>
                 I'm{" "}
                 <span className="text-sky-400 font-semibold">
@@ -70,8 +70,10 @@ const About = () => {
             </div>
           </div>
 
-          <p className="text-blue-300 text-lg md:text-xl leading-relaxed">
-            I specialize in the <span className="text-sky-400">MERN stack</span> and love blending clean code with beautiful design. I’m always learning and looking for ways to improve UI/UX and backend efficiency.
+          <p className="text-blue-300 text-lg md:text-xl leading-relaxed text-justify">
+            Full Stack Engineer with 3+ years of experience building scalable MERN stack applications (MongoDB, Express, React,
+            Node.js). Experienced in developing high-performance REST APIs, optimizing frontend performance, and working with
+            high-traffic, data-sensitive systems. Integrated Generative AI to automate workflows and reduce manual effort.
           </p>
 
           <motion.div variants={childVariants}>
